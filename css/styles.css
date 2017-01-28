@@ -1,0 +1,71 @@
+body {
+  background-color: #EBFBA9;
+}
+
+
+input[type=text] {
+    width: 210px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 0px;
+    font-size: 16px;
+    font-family: georgia;
+    background-color: #89623D;
+    background-image: url('http://www.fontsaddict.com/images/icons/png/9361.png');
+    background-size: 40px 40px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+input[type=submit] {
+  font-family: georgia;
+  background-color: #63092C;
+  color: gray;
+  border: 2px solid black;
+  height: 50px;
+  width: 80px;
+}
+h1{
+  font-family: georgia;
+  color: black;
+}
+
+p {
+  font-family: georgia;
+  font-size: 18px;
+
+}
+
+a {
+  font-family: georgia;
+  font-size: 18px;
+}
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+a:hover {
+    color: gray;
+}
+a:active {
+    color: #900C3F;
+}
+
+.container{
+  color:black;
+}
+
+ul{
+ list-style-image: url("https://wikimedia.org/api/rest_v1/media/math/render/svg/54a9c4c547f4d6111f81946cad242b18298d70b7");
+  color: #63092C;
+}
